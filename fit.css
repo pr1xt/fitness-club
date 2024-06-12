@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(127, 255, 212, 0.658);
+}
+.btn{
+    background: rgb(70, 184, 138);
+    border-radius: 4px;
+    width: 10vw;
+    height: 5vh;
+}
+.btn > p {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.block{
+    display: none;
+    position: absolute;
+    background-color: rgba(58, 119, 98, 0.456);
+    width: 50vw;
+    height: 30vh;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+
+}
+#week_rep_block{
+    top: 40%;
+    height: 70vh;
+}
+        
